@@ -1,5 +1,10 @@
 # Getting Started - 开始使用
 
+```eval_rst
+.. warning::
+   尚未完工。请阅读压缩包内自带文档。
+```
+
 ## 导入
 
 * 左上角“文件-追加（Append）”，找到*.blend文件并选择。
