@@ -1,15 +1,14 @@
 # Getting Started - 开始使用
 
 ```eval_rst
-.. warning::
-   尚未完工。请阅读压缩包内自带文档。
+.. attention:: 尚未完工。请阅读压缩包内自带文档。
 ```
 
 ## 导入
 
 * 左上角“文件-追加（Append）”，找到*.blend文件并选择。
 
-* 找到“Collection-Varcade_BL_v1.3.3”，选择并导入。
+* 找到“Collection-Varcade_BL_v1.3.5”，选择并导入。
 
 * 请不要按照某些教程直接导入全部Objects！
 

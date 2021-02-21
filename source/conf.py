@@ -17,20 +17,24 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 import sphinx_rtd_theme
-import recommonmark
 from recommonmark.transform import AutoStructify
+from time import strftime
 
 source_suffix = ['.rst', '.md']
 
 
 # -- Project information -----------------------------------------------------
 
+with open('../tags') as f:
+    tags = f.read().split('\n')
+
 project = 'Varcade_BL'
-copyright = '2020, F_Qilin'
+copyright = '2020-{}, F_Qilin'.format(strftime('%Y'))
 author = 'F_Qilin'
 
 # The full version, including alpha/beta/rc tags
-release = '1.3.5'
+release = tags[0]
+ver_date = tags[1]
 
 
 # -- General configuration ---------------------------------------------------
@@ -58,7 +62,7 @@ language = 'zh_CN'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-# exclude_patterns = ['_build']
+exclude_patterns = ['_build']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -74,12 +78,16 @@ html_theme = 'sphinx_rtd_theme'
 # html_static_path = ['_static']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+# Others
+html_favicon = 'images/logo/va.ico'
+html_last_updated_fmt = '%Y-%m-%d'
+
 
 # -- App Setup Hook ----------------------------------------------------------
 
 def setup(app):
     app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
+        # 'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Contents',
         'enable_math': False,
         'enable_inline_math': False,
@@ -87,3 +95,11 @@ def setup(app):
         'enable_auto_doc_ref': False
     }, True)
     app.add_transform(AutoStructify)
+
+
+# -- Other settings ----------------------------------------------------------
+rst_prolog = """
+.. |doc_date| replace::    {}
+.. |ver| replace::         {}
+.. |ver_date| replace::    {}
+""".format(strftime(html_last_updated_fmt), release, ver_date)
