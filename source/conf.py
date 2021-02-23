@@ -20,8 +20,6 @@ import sphinx_rtd_theme
 from recommonmark.transform import AutoStructify
 from time import strftime
 
-source_suffix = ['.rst', '.md']
-
 
 # -- Project information -----------------------------------------------------
 
@@ -46,7 +44,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
-    'recommonmark'
+    'recommonmark',
+    'sphinx_markdown_tables'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -79,7 +78,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Others
-html_favicon = 'images/logo/va.ico'
+html_favicon = 'images/logo/va-colored.ico'
 html_last_updated_fmt = '%Y-%m-%d'
 
 
@@ -98,6 +97,7 @@ def setup(app):
 
 
 # -- Other settings ----------------------------------------------------------
+
 rst_prolog = """
 .. |doc_date| replace::    {}
 .. |ver| replace::         {}

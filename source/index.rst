@@ -23,6 +23,8 @@ Varcade_BL - Varcade Rig for Blender
    download.md
    changelog.md
    start.md
+   extra.md
+   thanks.md
 
 
 .. Indices and tables
