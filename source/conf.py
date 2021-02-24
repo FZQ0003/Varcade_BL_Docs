@@ -79,7 +79,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Others
 html_favicon = 'images/logo/va-colored.ico'
-html_last_updated_fmt = '%Y-%m-%d'
+html_last_updated_fmt = '%Y-%m-%d %H:%M (%Z)'
 
 
 # -- App Setup Hook ----------------------------------------------------------
@@ -99,7 +99,6 @@ def setup(app):
 # -- Other settings ----------------------------------------------------------
 
 rst_prolog = """
-.. |doc_date| replace::    {}
 .. |ver| replace::         {}
 .. |ver_date| replace::    {}
-""".format(strftime(html_last_updated_fmt), release, ver_date)
+""".format(release, ver_date)
