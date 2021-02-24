@@ -1,10 +1,17 @@
-# Special Thanks - 特别鸣谢
+# Special Thanks - 鸣谢
 
-**原人模制作**：游客Yuke（Cinema 4D）。
+**原人模制作**：[游客Yuke](https://space.bilibili.com/21163430)（Cinema 4D）。
 
-**复刻**：F_Qilin（Blender）。
+**复刻**：[F_Qilin](https://space.bilibili.com/48122080)（Blender）。
 
-**测试**：星闪XS、T-Deck、以及所有体验过preview版本的用户。
+**测试**：[星闪XS](https://space.bilibili.com/23348168)、[T-Deck](https://space.bilibili.com/13162043)、以及所有体验过preview版本的用户。
+
+***以及**：[VArcade](https://space.bilibili.com/269076545)*
+
+``` eval_rst
+.. important::
+   不会真有人看到这里还不关注吧？不会吧不会吧不会吧？？
+```
 
 ``` eval_rst
 = = = = = ======================== = = = = = = = = = = = = = = = = = =
