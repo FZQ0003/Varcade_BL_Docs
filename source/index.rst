@@ -4,19 +4,34 @@ Varcade_BL - Varcade Rig for Blender
 当前文档对应版本：|ver| (|ver_date|)。
 
 .. important::
-   文档内容移植完毕。未来会修改文档部分内容。
+   尚未完工，预计2021-07-26前完成v1.4.0。
 
 .. toctree::
-   :caption: Content
+   :caption: General
    :maxdepth: 1
 
    overview.md
    download.md
    changelog.md
-   start.md
-   extra.md
    thanks.md
 
+.. toctree::
+   :caption: Tutorial
+   :maxdepth: 1
+
+   start.md
+
+.. toctree::
+   :caption: Advanced
+   :maxdepth: 1
+
+   extra.md
+
+.. toctree::
+   :caption: Others
+   :maxdepth: 1
+
+   timeline.md
 
 .. Indices and tables
 .. ==================
