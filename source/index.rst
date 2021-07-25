@@ -4,7 +4,8 @@ Varcade_BL - Varcade Rig for Blender
 当前文档对应版本：|ver| (|ver_date|)。
 
 .. important::
-   尚未完工，预计2021-07-26前完成v1.4.0。
+   The documents are written in Chinese and not completed yet.
+   Translations are in progress.
 
 .. toctree::
    :caption: General
