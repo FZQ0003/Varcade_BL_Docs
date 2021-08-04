@@ -15,16 +15,17 @@ Varcade_BL - Varcade Rig for Blender
    download.md
    changelog.md
    thanks.md
+   issues.md
 
 .. toctree::
    :caption: Tutorial
-   :maxdepth: 1
+   :maxdepth: 2
 
    start.md
 
 .. toctree::
    :caption: Advanced
-   :maxdepth: 1
+   :maxdepth: 2
 
    extra.md
 
