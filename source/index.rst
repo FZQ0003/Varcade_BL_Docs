@@ -4,8 +4,8 @@ Varcade_BL - Varcade Rig for Blender
 当前文档对应版本：|ver| (|ver_date|)。
 
 .. important::
-   The documents are written in Chinese and not completed yet.
-   Translations are in progress.
+   | The documents are written in Chinese and not completed yet.
+   | You may need a translator.
 
 .. toctree::
    :caption: General

@@ -5,3 +5,5 @@ build/
 source/_html/
 *.pyc
 *.ico.png
+source/.rstcheck.cfg
+image_classify.py
